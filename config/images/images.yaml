@@ -143,3 +143,13 @@ images:
   - 2.8.1
   - 2.8.2
   - 2.8.3
+# ebs-csi-driver/aws-ebs-csi-driver
+- source: public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
+  destination: eu.gcr.io/gardener-project/3rd/ebs-csi-driver/aws-ebs-csi-driver
+  tags:
+  - v1.22.0
+# credativ/valitail
+- source: ghcr.io/credativ/valitail
+  destination: eu.gcr.io/gardener-project/3rd/credativ/valitail
+  tags:
+  - v2.2.8
